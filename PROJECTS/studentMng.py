@@ -33,6 +33,7 @@ def Display_info(role): # POLYMORPHISM FUNCTION
     return role.display_info()
         
 student1 = Student("vignesh",12,94)
+student2 = Student('akash',12,88)
 teacher1 = Teacher("lewin","physics",9876543210)
 
 Display_info(student1)
@@ -47,4 +48,6 @@ except AttributeError:
     print(f'student cannot modify their mark.')
     
 teacher1.set_mark(89,student1)
+teacher1.set_mark(99,student2)
 student1.get_mark()
+student2.get_mark()
