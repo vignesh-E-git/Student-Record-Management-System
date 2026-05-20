@@ -1,4 +1,4 @@
-# PROJECT-2
+# Student Record Management System
 ABOUT : This is a simple student management system using OOPS concept.
 ## My Experience 
 #### Hi this is my second project. I completely finished the concepts of OOPS in python so i created a simple <mark>STUDENT MANAGEMENT SYSTEM</mark>
